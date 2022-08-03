@@ -1,7 +1,7 @@
 # How-to-ssh
 1. Create an SSH key in your local terminal
 ```bash
-ssh-keygen -t ed25519 -C "yshmarov@gmail.com"
+ssh-keygen -t ed25519 -C "ebengithub@gmail.com"
 ```
 > Just hit enter, `do not enter any password`.
 2. Start ssh agent, “Use” the generated key (in my case id_ed25519):
@@ -34,8 +34,8 @@ git push
 ```
 8. Configure your git if you have not done yet
 ```bash
-git config --global user.name "Yaro"
-git config --global user.email yshmarov@gmail.com
+git config --global user.name "Eben"
+git config --global user.email ebengithub@gmail.com
 ```
 #
 _EbenGithub_
